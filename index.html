@@ -31,26 +31,23 @@
             <div class="card">
                 <div class="card-content">
                     <h4>Desktop Notes</h4>
-                    <form>
+                    <form id="itemForm">
                         <div class="input-field">
-                            <input placeholder="Add Note" id="first_name" type="text" class="validate">
+                            <input placeholder="Add Note" id="itemInput" type="text">
                             <label for="first_name">New Note</label>
-                            <button class="btn waves-effect waves-light btn-small" type="submit" name="action">Add Note
+                            <button id="add" class="btn waves-effect waves-light btn-small" type="submit" name="action">Add Note
                                 <i class="material-icons right">add_circle_outline</i>
                             </button>
                         </div>
                     </form>
-                    <hr>
-                    <ul class="collection">
-                        <li class="collection-item">
-                            List Item
-                            <a href="#" class="delete-item secondary-content">
-                                <i class="material-icons right">remove_circle_outline</i>
-                            </a>
-                        </li>
-                    </ul>
+                    <div>
+                        <ul id="item-list" class="collection">
+                        <!-- <a href="#!" class="collection-item">${value}</a>` -->
+                        </ul>
+                    
                 </div>
             </div>
+        </div>
         </div>
         <div class="col s6">
             <img src="https://via.placeholder.com/1440x1024.png" alt="">
@@ -58,7 +55,7 @@
         <div class="col s2">
             <img src="https://via.placeholder.com/414x896.png" alt="">
         </div>
-        <div class="col s2">
+        <!-- <div class="col s2">
             <div class="card darken-1">
                 <div class="card-content">
                     <h4>Mobile Notes</h4>
@@ -73,12 +70,13 @@
                     </form>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
-    </div>
+    
+    <script src="./assets/app.js"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
+  
 </body>
 
 </html>
