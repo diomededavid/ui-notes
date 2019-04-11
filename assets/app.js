@@ -37,7 +37,7 @@ if (textValue === ''){
 function addItem(value){
 const div = document.createElement('div');
 div.classList.add('item', 'cool')
-div.innerHTML = `<a href="#!" class="collection-item"> ${value} <i class="material-icons right">remove_circle_outline</i></a>`
+div.innerHTML = `<a href="#!" class="collection-item"> ${value} <i class="material-icons right">remove_circle_outline</i></a><a href="#!" class="collection-item"> ${value} <i class="material-icons right">remove_circle_outline</i></a>`
 
 itemList.appendChild(div);
 
